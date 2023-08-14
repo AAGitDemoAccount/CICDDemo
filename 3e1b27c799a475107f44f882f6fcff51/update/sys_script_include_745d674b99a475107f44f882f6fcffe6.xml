@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_cicd_demo.cicdDemo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>cicdDemo</name>
+        <script><![CDATA[var cicdDemo = Class.create();
+cicdDemo.prototype = {
+    initialize: function() {
+    },
+	
+	sayHello: function() {
+		/*cicd demo*/
+		return "hello!";
+		
+	},
+
+    type: 'cicdDemo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 05:47:27</sys_created_on>
+        <sys_id>745d674b99a475107f44f882f6fcffe6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cicdDemo</sys_name>
+        <sys_package display_value="CICD Demo" source="x_snc_cicd_demo">3e1b27c799a475107f44f882f6fcff51</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD Demo">3e1b27c799a475107f44f882f6fcff51</sys_scope>
+        <sys_update_name>sys_script_include_745d674b99a475107f44f882f6fcffe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 05:51:23</sys_updated_on>
+    </sys_script_include>
+</record_update>
